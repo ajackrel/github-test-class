@@ -1,3 +1,7 @@
+/*
+This is an example of a shared Github project.
+ */
+
 package com.example.githubtestclass;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,5 +14,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        System.out.println("This print message is brought to you courtesy of computer #1");
+
     }
 }
