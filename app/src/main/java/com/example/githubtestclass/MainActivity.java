@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        System.out.println("This is a print message -computer #1");
+        System.out.println("This is a MUCH better print message");
 
     }
 }
